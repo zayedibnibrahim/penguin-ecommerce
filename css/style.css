@@ -1,0 +1,97 @@
+header{
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav a{
+    font-size: 14px;
+    color: #3C3C3C !important;
+}
+@media (max-width: 576px){
+    .banner .rev, .about .rev{
+        flex-direction: column-reverse;
+    }
+    
+    header img{
+        width: 70% !important;
+    }
+}
+@media (max-width: 768px){
+    header img{
+        width: 40%;
+    }
+}
+.banner{
+    background-color: #dff9fb;
+}
+.banner h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    font-weight: 500;
+}
+.colorfull-text{
+    color: #FA804C;
+}
+.banner p{
+    font-family: 'Roboto', sans-serif;
+}
+.banner button{
+    background-color: #f0932b;
+    border: none;
+}
+
+.shoe-section h1, .shoe-section h5{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+h5.card-title{
+    font-size: 25px;
+}
+@media (max-width: 576px){
+.shoe-section > h1{
+    font-size: 35px;
+}
+}
+.shoe-section p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.card1, .card2, .card3{
+    border-radius: 10px;
+}
+.card img{
+    border-radius: 10px;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
+.card-footer button{
+    background-color: #f0932b;
+    border: none;
+}
+.card-footer h5{
+    color:  #f0932b;
+    font-size: 30px;
+}
+.small-box{
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+}
+.small-box h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.small-box p{
+    font-size: 12px;
+}
+@media (max-width: 576px){
+.small-box img{
+    width: 50% !important;
+}
+}
+.contact button{
+    background-color: #f0932b;
+    border: none;
+}
